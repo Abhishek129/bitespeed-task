@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "9f8a8095-981c-4e59-8c1a-e8555290ef5c",
+		"name": "BITESPEED",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32582062",
+		"_collection_link": "https://testallapis.postman.co/workspace/Team-Workspace~05f02568-635d-4870-8c25-6c10f26f89f2/collection/32582062-9f8a8095-981c-4e59-8c1a-e8555290ef5c?action=share&source=collection_link&creator=32582062"
+	},
+	"item": [
+		{
+			"name": "APIs",
+			"item": [
+				{
+					"name": "GET",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "OpenAI-Beta",
+								"value": "assistants=v1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://bitespeed-task-l0su.onrender.com",
+							"protocol": "https",
+							"host": [
+								"bitespeed-task-l0su",
+								"onrender",
+								"com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "identify",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"george@hillvalley.edu\",\r\n    \"phoneNumber\": \"717171\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://bitespeed-task-l0su.onrender.com/identify",
+							"protocol": "https",
+							"host": [
+								"bitespeed-task-l0su",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

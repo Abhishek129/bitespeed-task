@@ -31,12 +31,12 @@ This service provides an endpoint to identify and consolidate customer contact i
 3. **Set up environment variables:**
     Create a `.env` file in the root directory and add your database connection details:
     ```plaintext
-    DB_NAME=bitespeed
+    DB_NAME=yourdbname
     DB_USER=yourusername
     DB_PASSWORD=yourpassword
-    DB_HOST=localhost
-    DB_PORT=5432
-    PORT=3000
+    DB_HOST=yourhostserver
+    DB_PORT=yourdatabaseportnumber
+    PORT=yourappportnumber
     ```
 
 4. Run the migrations to create the necessary tables:
