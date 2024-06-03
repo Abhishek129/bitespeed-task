@@ -20,7 +20,7 @@ This service provides an endpoint to identify and consolidate customer contact i
 1. **Clone the repository:**
     ```sh
     git clone https://github.com/Abhishek129/bitespeed-task.git
-    cd bitespeed-identify
+    cd bitespeed-task
     ```
 
 2. **Install dependencies:**
